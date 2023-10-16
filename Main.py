@@ -28,7 +28,7 @@ def find_longest_compounded_words(words):
 if __name__ == "__main__":
     start_time = time.time()
 
-    input_files = ["Input_01.txt"]
+    input_files = ["Input_01.txt", "Input_02.txt"]
     all_words = []
     for file in input_files:
         with open(file, "r") as f:
